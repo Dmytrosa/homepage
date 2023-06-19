@@ -5,15 +5,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffefb;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     line-height: 1.5;
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #58050545;
+    --text-decoration-color: #5cd212c9;
 }
 
 .container {
@@ -74,8 +75,9 @@ body {
 .contact-info__header {
     color: var(--primary-text-color);
     margin-bottom: 15px;
-    text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
+    border-top: solid 1px #5050502d ;
+    border-radius: 40px;
+    box-shadow: 10px 5px 10px #26a80927;
 }
 
 .contact-info__sub-header {
@@ -91,6 +93,11 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    right: 55px;
+
 }
 
 .contact-info__item {
@@ -130,11 +137,12 @@ body {
 }
 .intro {
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro__icon-wrapper {
-    margin-right: 30px;
+    margin: 0 10px 0 10px;
     width: 30px;
     display: flex;
     justify-content: center;
@@ -152,6 +160,8 @@ body {
 .intro_text {
     color: var(--secondary-text-color);
     text-align: justify;
+    font-weight: 700;
+    font-size: x-large;
 }
 
 .skills__header {
